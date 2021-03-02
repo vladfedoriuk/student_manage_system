@@ -1,0 +1,62 @@
+form, button{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+
+#text-area-student{
+    font-size: 15px;
+}
+
+.output{
+    margin: 15px;
+}
+
+.hide-block{
+    width: 100%;
+}
+
+.hide{
+    width: 100%;
+}
+
+.centered{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+li[class="nav-item"]{
+    background-color: grey; 
+    width:100%;
+    border-bottom: 1px solid white;
+}
+li[class="nav-item"] a{
+    color: seashell
+
+}
+
+li[class="nav-item"] a:hover{
+    color: white;
+}
+
+
+h3[class="display-4 font-weight-normal"]{
+    margin: 30px;
+}
+
+.sticky {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
+
+@media only screen and (max-width: 700px){
+    button[class="btn btn-success"], 
+    button[class="btn btn-danger"],
+    button[class="btn btn-primary"]{
+        font-size: 10px;
+        text-align: center;
+    }
+}
